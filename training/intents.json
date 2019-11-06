@@ -1,0 +1,41 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello, are you a member or a retiree?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Thank you!", "Thanks", "thanks for the help", "Thank you very much"],
+         "responses": ["Let me know if anything else is needed."],
+         "context_set": ""
+        },
+        {"tag": "retiree",
+         "patterns": ["retiree", " I am a retiree", "retire", "I am retired", "retireee", "retree", "options for retiree"],
+         "responses": ["What retiree tasks can I help you with today?"],
+         "context_set": ""
+        },
+        {"tag": "member",
+         "patterns": ["member", " I am a member", "membr", "I am member", "memberr", "memeber", "options for member"],
+         "responses": ["What member tasks can I help you with today?"],
+         "context_set": ""
+        },
+        {"tag": "pension",
+         "patterns": ["Id like to view my monthly Pension Information Change Statement",
+                "monthly pension statement", "Could I see my monthly pension information change statement", "I'd like to see my monthly pension statement"],
+         "responses": ["A digital copy of your monthly pension statement has been sent to your email."],
+         "context_set": ""
+        },
+        {"tag": "apply",
+         "patterns": ["apply to make pension contributions for a leave of absence", "could I apply for leave of absense", 
+                "I plan on making a leave of absense", "I'd like to apply to make contributions", "I'll be making a leave of absense", 
+                "Could you help with making contributions while I'm away"],
+         "responses": ["An application for pension contributions during a leave of absence has been made."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+        "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+        "responses": ["We are open 7am-4pm Monday-Friday."],
+        "context_set": ""
+        }
+   ]
+}
